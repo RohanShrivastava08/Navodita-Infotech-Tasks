@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Library</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        rel="stylesheet"
+      />
+      <div class="container">
+        <h1>Welcome to Rohan Book Shop</h1>
+      </div>
+    </header>
+
+    <nav>
+      <div class="container">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#books">Books</a></li>
+          <li><a href="#query">Query</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="images">
+      <div class="container">
+        <div class="image-wrapper">
+          <img src="pics/top.jpg" alt="Image 1" />
+          <img src="pics/top2.jpg" alt="Image 2" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Book Store</h2>
+        <p>
+          A book store is more than just a place to purchase books; it's a
+          sanctuary for bibliophiles, a haven for knowledge seekers, <br />
+          and a treasure trove of stories waiting to be discovered. Stepping
+          into a book store is like embarking on a journey through <br />
+          worlds unknown, where every shelf holds the promise of adventure,
+          enlightenment, and imagination.
+        </p>
+        <p>
+          In a book store, the aroma of printed pages mingles with the
+          excitement of exploration, inviting <br>visitors to lose themselves among
+         the aisles filled with literary wonders.
+        </p>
+        <p>
+          From classic novels to contemporary bestsellers, from timeless
+          classics to niche genres, a book store caters <br>to diverse tastes and
+          interests, offering something for everyone.
+        </p>
+        <p>
+          They provide a sanctuary where people can unplug from the digital
+          world, immerse themselves in the written word,<br> and rediscover the joy
+          of holding a physical book in their hands.
+        </p>
+      </div>
+    </section>
+
+    <section id="books">
+      <div class="container">
+        <h2>Featured Books</h2>
+        <div class="book-grid">
+          <div class="book">
+            <img src="pics/book1.jpg" alt="Book 1" />
+            <h3>Book Title 1</h3>
+            <p>Description of the book goes here.</p>
+            <p>Price: $X.XX</p>
+            <button>Buy Now</button>
+          </div>
+          <div class="book">
+            <img src="pics/book2.jpg" alt="Book 2" />
+            <h3>Book Title 2</h3>
+            <p>Description of the book goes here.</p>
+            <p>Price: $X.XX</p>
+            <button>Buy Now</button>
+          </div>
+          <div class="book">
+            <img src="pics/book3.jpg" alt="Book 3" />
+            <h3>Book Title 1</h3>
+            <p>Description of the book goes here.</p>
+            <p>Price: $X.XX</p>
+            <button>Buy Now</button>
+          </div>
+          <div class="book">
+            <img src="pics/book4.jpg" alt="Book 4" />
+            <h3>Book Title 1</h3>
+            <p>Description of the book goes here.</p>
+            <p>Price: $X.XX</p>
+            <button>Buy Now</button>
+          </div>
+          <div class="book">
+            <img src="pics/book5.jpg" alt="Book 5" />
+            <h3>Book Title 1</h3>
+            <p>Description of the book goes here.</p>
+            <p>Price: $X.XX</p>
+            <button>Buy Now</button>
+          </div>
+          <div class="book">
+            <img src="pics/book6.jpg" alt="Book 6" />
+            <h3>Book Title 1</h3>
+            <p>Description of the book goes here.</p>
+            <p>Price: $X.XX</p>
+            <button>Buy Now</button>
+          </div>
+          <!-- Add more book items here -->
+        </div>
+      </div>
+    </section>
+
+    <section id="query">
+      <div class="container">
+        <h2>Have a Question?</h2>
+        <form>
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <textarea
+              id="question"
+              placeholder="Your Question"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>123 Main Street<br />City, State, ZIP</p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <p>Phone: 123-456-7890</p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <p>Email: info@example.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Rohan Book Shop. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
