@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    word-wrap: break-word;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #999;
+    overflow-x: hidden !important;
+    background: #fff;
+}
+
+p {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h1,
+h2,
+h4 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    line-height: 1.25em;
+    margin: 0 0 20px 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #f4f4f4;
+}
+
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.container {
+    padding: 1.2rem 6%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navbar .logo-wrapper {
+    height: 29px;
+    overflow: hidden;
+
+}
+
+.logo-wrapper a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.logo-wrapper a strong {
+    font-family: 'Jost', sans-serif;
+    ;
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: -5px;
+
+}
+
+
+
+.navbar .navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar .navbar-links a {
+    font-family: Jost, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+}
+
+.navbar .navbar-links a:hover {
+    color: rgb(255, 255, 255);
+
+}
+
+.header {
+    background-image: url(./images/header.jpg);
+    min-height: 100vh;
+    background-color: #111;
+    background-position: top right;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.header {
+    min-height: 100vh;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.header .box {
+    max-width: 50%;
+    min-width: 300px;
+}
+
+.header .box h1 {
+    color: #fff;
+}
+
+.header .box .btn {
+    padding: 0.25rem 1rem;
+    border: 1px solid #fff;
+    margin-right: 1rem;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 14px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======= Footer style ======= */
+.footer {
+    background-image: url(./images/bg-footer.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll
+}
+
+.footer-logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.newsletter {
+    padding: 1rem 0rem;
+
+}
+
+.newsletter .container {
+    align-items: center;
+}
+
+.newsletter h2 {
+    color: #fff;
+    margin: 5px 0px;
+}
+
+.newsletter p {
+    color: #aaa;
+}
+
+.newsletter .form form {
+    display: flex;
+    padding: 0rem 0rem;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.newsletter .form form input {
+    width: 200px;
+    padding: 0px 10px;
+    height: 40px;
+    border: none;
+    background-color: #fff;
+}
+.newsletter form button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #000;
+    font-size: 12px;
+    color: #fff;
+}
+
+/* second footer */
+.second-footer {
+    background-color: #000000d0;
+    padding: 4rem 0rem;
+
+    border-bottom: 1px solid rgba(5, 5, 5, 0.1);
+}
+
+
+.second-footer .box {
+    max-width: 450px;
+}
+
+;
+
+
+.second-footer .title {
+    padding: 0;
+    margin-bottom: 10px;
+    color: #fff;
+    padding: 15px 0px;
+
+}
+
+.second-footer .text p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #bbb;
+    padding: 15px 0px;
+}
+
+.second-footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.second-footer ul li {
+    padding: 1px 0px;
+}
+
+.second-footer ul li a,
+.second-footer ul li span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #aaa;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.footer .box ul li a:hover {
+    color: #fff;
+}
+
+.copyright {
+    background-color: #000000c1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.51rem 6%;
+
+}
+
+.copyright p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}
+
+.copyright p a {
+    color: #f1f1f1;
+}
+
+.social-icons {
+    display: flex;
+    color: #fff;
+    gap: 1rem;
+}
+
+.social-icons a {
+    display: flex;
+    color: #444;
+    gap: 1rem;
+    text-decoration: none;
+}
