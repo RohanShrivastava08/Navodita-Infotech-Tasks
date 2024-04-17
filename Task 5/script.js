@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const apiKey = '16592d4725aa4814869730f698bc8f6b'; // Replace with your News API key
+    const apiKey = 'YOUR API KEY'; // Replace with your News API key
     const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
 
     // Function to fetch live news and update the news feed
