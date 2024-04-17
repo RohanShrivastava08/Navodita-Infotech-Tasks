@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Feed Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>News Feed</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#query">Query</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   
+    <section id="live-news" class="live-news">
+        <div class="container">
+            <h2>Live News Feed</h2>
+            <div id="news-feed" class="news-feed">
+                <!-- Live news feed will be dynamically populated here -->
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about" class="about-container">
+        <h2>About Us</h2>
+        <p>Welcome to News Feed! We strive to provide you with the latest and most relevant news from around the world.</p>
+    </section>
+
+    <section id="contact" class="contact-container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback, feel free to reach out to us:</p>
+        <p>Email: info@newsfeed.com</p>
+        <p>Phone: +1234567890</p>
+    </section>
+
+    <section id="query" class="query-container">
+        <h2>Query</h2>
+        <p>Got a question? Ask us!</p>
+        <form id="query-form">
+            <textarea id="query-text" rows="4" placeholder="Type your query here"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 News Feed. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
